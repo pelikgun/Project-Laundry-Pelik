@@ -1,0 +1,101 @@
+/* Style for container */
+.container {
+    margin-top: 140px;
+    margin-left: 100px;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Style for top section */
+.top {
+    background-color: #695cfe;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for title in top section */
+.title-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for icon in top section */
+.title-top i {
+    margin-right: 10px;
+}
+
+/* Style for box transaction */
+.box-transaction {
+    margin-top: 20px;
+}
+
+/* Style for box card */
+.box-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Style for title transaction */
+.title-transaction {
+    font-size: 24px;
+    font-weight: bold;
+    color: #695cfe;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    display: block;
+}
+
+/* Style for datalist box */
+.datalist-box {
+    margin-bottom: 20px;
+}
+
+/* Style for input */
+.datalist-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Style for submit box */
+.submit-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for submit button */
+.submit-box input[type="submit"] {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #695cfe;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style for submit button on hover */
+.submit-box input[type="submit"]:hover {
+    background-color: #4e49b5;
+}
+
+/* Style for link */
+.submit-box a {
+    color: #695cfe;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+/* Style for link on hover */
+.submit-box a:hover {
+    text-decoration: underline;
+}

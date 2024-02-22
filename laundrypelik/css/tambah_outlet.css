@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+}
+
+.header {
+    background-color: #695cfe;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-group {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.box-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cancel-btn,
+.submit-btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cancel-btn {
+    background-color: #ddd;
+    color: #333;
+}
+
+.submit-btn {
+    background-color: #695cfe;
+    color: #fff;
+}
+
+.submit-btn:hover {
+    background-color: #4e49b5;
+}
+
+/* Add this CSS for a more attractive select element */
+.select-input {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.select-input i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.select-input select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    appearance: none; /* Remove default arrow */
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Style the select arrow */
+.select-input select::-ms-expand {
+    display: none;
+}
+
+.select-input select:hover {
+    border-color: #695cfe;
+}
+
+.select-input select:focus {
+    border-color: #695cfe;
+    box-shadow: 0 0 8px rgba(105, 92, 254, 0.7);
+}
+
+/* Style for the selected option */
+.select-input select option {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Style for the dropdown when opened */
+.select-input select option:hover,
+.select-input select option:focus {
+    background-color: #695cfe;
+    color: #fff;
+}
+
+/* Style for the selected option in a closed dropdown */
+.select-input select option:checked {
+    background-color: #695cfe;
+    color: #fff;
+}

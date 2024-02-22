@@ -1,0 +1,162 @@
+/* Container */
+.container {
+    max-width: 1000px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+/* Top section */
+.top {
+    background-color: #695cfe;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 80px;
+}
+
+/* Title top */
+.title-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icon top */
+.title-top i {
+    margin-right: 10px;
+}
+
+/* Box bar status */
+.box-bar-status {
+    margin-top: 20px;
+}
+
+/* Bar status */
+.bar-status {
+    background-color: #f0f0f0;
+    height: 20px;
+    position: relative;
+}
+
+/* Bar status span */
+.bar-status span {
+    position: absolute;
+    top: -20px;
+}
+
+/* Box detail transaction */
+.box-detail-transaction {
+    margin-top: 20px;
+}
+
+/* Box detail container */
+.box-detail-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Box detail */
+.box-detail {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Box form */
+.box-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Box title */
+.box-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Title form */
+.title-form {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table th, td */
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Box add */
+.box-add {
+    margin-top: 20px;
+}
+
+/* Box add form */
+.box-add-form {
+    display: flex;
+    align-items: center;
+}
+
+/* Box input add form */
+.box-input-add-form {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Box submit form */
+.box-submit-form {
+    flex: 1;
+    text-align: center;
+    
+}
+
+/* Box status */
+.box-status {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Box biaya tambahan container */
+.box-biaya-tambahan-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Box biaya tambahan */
+.box-biaya-tambahan {
+    flex: 1;
+}
+
+/* Box input biaya tambahan */
+.box-input-biaya-tambahan {
+    display: flex;
+    align-items: center;
+}
+
+/* Box submit biaya tambahan */
+.box-submit-biaya-tambahan {
+    flex: 1;
+    text-align: center;
+}
+
+/* Box button pay */
+.box-button-pay {
+    flex: 1;
+    text-align: center;
+    margin-left: 20px;
+}
